@@ -1,0 +1,60 @@
+
+@font-face{
+    font-family: farsi;
+    src: url(../font/iranyekanwebbold.cfb6e26c.woff2);
+    src: url(../font/iranyekanwebextrabold.9346e9a2.woff);
+    src: url(../font/iranyekanwebmedium.2d4f96e5.woff);
+    src: url(../font/iranyekanwebregular.e31c09af.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: farsi;
+}
+
+div.form{
+    width: 80%;
+    height: 500px;
+    background-color: rgb(17, 145, 161);
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #2b2b2b;
+    text-align: center;
+    padding: 25px;
+    color: aliceblue;
+}
+
+div.form>form>input {
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #2b2b2b;
+    border: 1px solid #fafafa;
+    margin-bottom: 16px;
+}
+
+div.form>form>input:hover {
+    background-color: beige;
+}
+
+div.form>form>button {
+    width: 120px;
+    height: 30px;
+    box-shadow: 5px 5px 5px #2b2b2b;
+    border: 1px solid #fafafa;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+div.form>form>button:hover {
+    background-color: #a10c0c;
+    color: #fafafa;
+}
+
+div.form>form>h1>span {
+    color: #a10c0c;
+    font-size: larger;
+}

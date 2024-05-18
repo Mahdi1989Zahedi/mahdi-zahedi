@@ -1,0 +1,209 @@
+*{
+    background-color: rgb(228, 235, 235);
+    font-family: farsi; 
+    padding: 0;
+    margin: 0;
+
+}
+
+@font-face{
+    font-family: farsi;
+    src: url(../font/iranyekanwebbold.cfb6e26c.woff2);
+    src: url(../font/iranyekanwebextrabold.9346e9a2.woff);
+    src: url(../font/iranyekanwebmedium.2d4f96e5.woff);
+    src: url(../font/iranyekanwebregular.e31c09af.woff2);
+}
+
+header{
+    font-size: 1em;
+    font-family: farsi;
+
+}
+
+header>nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 1em;
+
+}
+header>nav>div.nav-right{
+    display: flex;
+    align-items: center;
+
+}
+
+header>nav>div.nav-right>a{
+    color: #444;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    font-size: 1em;
+    transition: 500ms;
+}
+
+header>nav>div.nav-right>a>i:hover{
+    color: red;
+}
+
+
+header>nav>div.nav-left>div.loging{
+    border: 1px solid #666;
+    padding: 5px 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 500ms;
+
+}
+
+header>nav>div.nav-left>div.loging:hover{
+    background-color: red;
+}
+
+header>nav>div.nav-left>div.loging>i{
+    margin: 5px;
+    color: #444;
+
+}
+
+header>nav>div.nav-left>div.loging>a{
+    color: #444;
+    transition: 500ms;
+
+    
+}
+
+header>nav>div.nav-left>div.loging>a:hover{
+    background-color: red;
+}
+
+
+header>section.slaider{
+    position: relative;
+    font-size: 1em;
+
+}
+
+.slider>.slid{
+    padding: 0;
+    margin: 0;
+
+}
+
+.slaider>.slid>.item{
+    position: relative;
+    display: none;
+
+}
+
+.slaider>.slid>.item>img{
+    width: 90%;
+    margin: 50px 90px;
+    border: #444;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+.slaider>.slid>.item>span{
+    position: absolute;
+    color:aliceblue;
+    right: 10%;
+    top: 40%;
+    font-size: 1.5em;
+
+}
+
+.slaider>.slid>.active{
+    display: block;
+
+}
+
+.slaider>.buttons{
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    z-index: 1;
+
+}
+
+.slaider>.buttons>i{
+    color:rgb(0, 0, 0);
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.slaider>.slid>.active>img{
+    border-radius: 20px;
+}
+
+.slaider>.buttons>i:hover{
+    color: #444;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.container-1 .icon img {
+    width: 100px;
+    height: 100px;
+    margin-right: 25px;
+}
+
+.container-1 {
+    width: 100%;
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 120px;
+    padding-bottom: 100px;
+}
+
+.icon {
+    padding-left: 55px;
+    padding-right: 55px;
+
+}
+
+.container-1>.icon>a>img{
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    margin-right: 45px;
+    font-family: farsi;
+}
+
+.container-1>.icon>a>p{
+    font-size: 12px;
+    margin-right: 45px;
+    text-align: center;
+    font-family: farsi;
+}
+
+
+div.baner {
+    background-color: aliceblue;
+    
+}
+
+
+div.baner>img {
+    width: 80%;
+    margin-left: 200px;
+}
+
+button {
+    width: 120px;
+    height: 30px;
+    box-shadow: 5px 5px 5px #2b2b2b;
+    border: 1px solid #fafafa;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 500ms;
+    margin-right: 1700px;
+    background-color: #59e670;
+}
+
+button:hover {
+    background-color: #a10c0c;
+    color: #fafafa;
+}
